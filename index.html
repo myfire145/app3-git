@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<title>Dia mundial de la bicicleta</title> 
+
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+ <!--grupo javascript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!--  <script src="js/acciones.js"></script> --> 
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head><body onLoad="MM_preloadImages('imagenes/bicicleta-03.jpg','imagenes/images (1).jpg')">
+
+
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Dia Mundial de la Bicicleta</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>Banner comnmemorativo:</h1>
+      <div>
+        <p>Mi Banner</p>
+        <br>
+      </div>
+      <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/bicicleta-03.jpg',1)"><img src="imagenes/bicicleta-04.jpg" width="60%" height="50%" id="Image7"></a> </div>    
+    </div>
+   </div>
+   <div>
+     <ul data-role="listview"data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Historia de la bicicleta</h2>
+             <p>muestra su historia</p>
+           </a>
+       </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Utilizacion como medio de tranporte</h2>
+        <p>muestra como es utilizada</p>
+      </a>
+    </li>
+        <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Tipos de bicicletas</h2>
+        <p>muestra algunos tipos de bicicleta</p>
+      </a>
+    </li>
+        <li class="ui-first-child ui-last-child">
+           <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>5 Marcas importantes de bicicletas</h2>
+             <p>muestra marcas importantes</p>
+           </a>
+        </li>       
+        <li class="ui-first-child ui-last-child">
+           <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Por que se celebra el Dai Mundial de la bicicleta</h2>
+              <p>muestra el dia y el porque se celebra</p>
+            </a>
+        </li>
+        </ul>
+     </div>  
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+         <img src="imagenes/persona_rosa.png" width="46" height="46"
+       </div>
+     <div>
+       <h4>APLICACION TRES</h4>
+        <h4>Ari Sabethai Villa Salas</h4>
+     </div>
+    </div> 
+    </div>    
+     <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>HISTORIA</h1>
+        </div>
+        <div data-role="content" align="center">
+          <div>
+            <h2>Antecedentes históricos de la creación de la bicicleta:
+
+•	En el antiguo Egipto, hay testimonios de artefactos con dos ruedas unidos a una barra, en China hubo artilugios con ruedas de bambú.
+
+•	En su obra de 1490 “codez atlanticus” Leonardo da Vinci, dedica un pequeño apartado para un dibujo que representaba una bicicleta con transmisión de cadena, como las actuales bicicletas.
+
+
+¿Quién invento la primera bicicleta? 
+
+•	En 1816 el barón alemán Karl Christian Ludwig Drais Von Sauerbronn invento su Laufmaschine (maquina andante) consistente en un armazón con ruedas con una vara de madera unida a la rueda delantera y que el tripulante dirigía, tenía una almohadilla como asiento, se impulsaba alternando los pies en el suelo, como si se patinara. Se le denomino draisiana en honor a su inventor aunque después se le conoció como velocípedo.
+
+•	En Inglaterra se le conoció como balancín.
+
+•	En 1818 apareció un modelo mejorado dandy horse se patento en 1819 en Estados Unidos pero no genero mucho interés.
+
+•	En 1839 el herrero escoces Kirkpatrick Macmillan construyo la primera bicicleta con pedales también le añadió palancas de conducción, fue mejorada en 1846 por Gavin Dalzell. </h2>
+            <p>https://bicihome.com/la-historia-de-las-bicicleta/</p>
+             <img src="imagenes/historia.jpg" width="60%" height="60%">
+          </div>
+        </div>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+          <img src="imagenes/persona_rosa.png" width="46" height="46">
+        </div>
+           <h4>Aplicacion Tres,ASVS</h4>
+        </div>
+      </div>       
+  
+
+     <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>COMO TRASPORTE</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+           <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/2150eec09099eac844518ba441011449.jpg" alt="2150eec09099eac844518ba441011449" title="2150eec09099eac844518ba441011449" id="wows1_0"/></li>
+		<li><img src="data1/images/1263620.jpg" alt="1263620" title="1263620" id="wows1_1"/></li>
+		<li><img src="data1/images/bancadavalenbisi.jpg" alt="bancada-valenbisi" title="bancada-valenbisi" id="wows1_2"/></li>
+		<li><img src="data1/images/beneficiosusosbicicleta.jpg" alt="beneficios-usos-bicicleta" title="beneficios-usos-bicicleta" id="wows1_3"/></li>
+		<li><img src="data1/images/bicis.jpg" alt="bicis" title="bicis" id="wows1_4"/></li>
+		<li><img src="data1/images/dsc_7845.jpg" alt="dsc_7845" title="dsc_7845" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/enbicialtrabajo.jpg" alt="wowslider.com" title="en-bici-al-trabajo" id="wows1_6"/></a></li>
+		<li><img src="data1/images/yowamushipedal061.jpg" alt="yowamushi-pedal-06-1" title="yowamushi-pedal-06-1" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="2150eec09099eac844518ba441011449"><span><img src="data1/tooltips/2150eec09099eac844518ba441011449.jpg" alt="2150eec09099eac844518ba441011449"/>1</span></a>
+		<a href="#" title="1263620"><span><img src="data1/tooltips/1263620.jpg" alt="1263620"/>2</span></a>
+		<a href="#" title="bancada-valenbisi"><span><img src="data1/tooltips/bancadavalenbisi.jpg" alt="bancada-valenbisi"/>3</span></a>
+		<a href="#" title="beneficios-usos-bicicleta"><span><img src="data1/tooltips/beneficiosusosbicicleta.jpg" alt="beneficios-usos-bicicleta"/>4</span></a>
+		<a href="#" title="bicis"><span><img src="data1/tooltips/bicis.jpg" alt="bicis"/>5</span></a>
+		<a href="#" title="dsc_7845"><span><img src="data1/tooltips/dsc_7845.jpg" alt="dsc_7845"/>6</span></a>
+		<a href="#" title="en-bici-al-trabajo"><span><img src="data1/tooltips/enbicialtrabajo.jpg" alt="en-bici-al-trabajo"/>7</span></a>
+		<a href="#" title="yowamushi-pedal-06-1"><span><img src="data1/tooltips/yowamushipedal061.jpg" alt="yowamushi-pedal-06-1"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+            </div>
+         </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>  
+         <img src="imagenes/persona_rosa.png" width="46" height="46">
+       </div>
+         <h4>Aplicacion Tres,ASVS</h4> 
+       </div>
+        </div>
+          
+          
+     <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>TIPOS DE BICICLETAS</h1>
+        </div>
+        <div data-role="content" align="center">
+          <div>
+            <h2>Estos son algunos ejemplos de los diferentes tipos de bicicleta:</h2>
+            <h2>1.Bicicletas de Montaña (MTB)</h2>
+            <h2>2.Bicicletas de Ruta              </h2>
+            <h2>3.Bicicletas Híbridas</h2>
+            <h2> 4.Bicicletas Urbanas</h2>
+            <h2> 5.Bicicletas plegables            </h2>
+            <h2>6.Fixies y single speed</h2>
+            <h2> 7.Cruisers              </h2>
+            <h2>8.MBX</h2>
+            <h2> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/images (1).jpg',1)"><img src="imagenes/bicicleta-01.jpg" width="70%" height="60%" id="Image24"></a></h2>
+            </div>
+           </div>
+         <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+         <div>
+           <img src="imagenes/persona_rosa.png" width="46" height="46">
+         </div>
+           <h4>Aplicion Tres,ASVS</h4>
+         </div>
+         </div>
+   
+   
+         <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+            <h1>MARCAS IMPORTANTES</h1>
+           </div>
+           <div data-role="content" align="center">
+             <div>
+                <h2>
+– Specialized. Marca norteamericana considerada por muchos como la mejor del mundo (aunque sí se podría decir que es la más mediática).</h2>
+                <h2> – Trek. Esta mítica marca norteamericana de bicicletas lleva varios años siendo la máxima rival de Specialized, pues hacen máquinas muy avanzadas tecnológicamente y además patrocinan a muchos equipos de competición.</h2>
+                <h2> – Merida. Esta empresa taiwanesa es uno de los principales fabricantes de bicicletas del mundo, pues no sólo hace sus propias bicicletas sino que además es uno de los que más cuadros elabora para terceros.</h2>
+                <h2> – Scott. Una de las marcas más vanguardistas en todos los segmentos competitivos: montaña, carretera y triatlón.</h2>
+                <h2> – Giant. Es al igual que Merida una marca taiwanesa que a pesar de hacer productos propios, es también de los principales fabricantes de cuadros del mundo para terceros.</h2>
+                <img src="imagenes/marcas.jpg" width="%60" height="%50">
+             </div>
+           </div>
+         <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+            <img src="imagenes/persona_rosa.png" width="46" height="46">
+            </div>
+              <h4>Aplicion Tres,ASVS</h4>
+          </div>
+          </div>    
+           
+           
+           <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b"
+            <h1>DIA DE LA BICICLETA</h1>
+           </div>
+           <div data-role="content" align="center">             
+                <div>
+                  <h2>El 19 de abril, desde el año 1985, se celebra en diversas partes del mundo el Día de la Bicicleta. Se dice que esta fecha se empezó a conmemorar a raíz de que el químico suizo Albert Hofmann, ingirió un químico con el que experimentaba, llamado “LSD” (Dietilamida de Ácido Lisérgico) el cual tiene efectos psicotrópicos.Dicen que Albert Hofmann viajó un 19 de abril en su bicicleta bajo los efectos de este químico, narrando posteriormente su travesía en bicicleta bajo los efectos del LSD de la siguiente manera: “poco a poco comencé a disfrutar de una sucesión de colores y formas sin precedentes, aun con mis ojos cerrados. Fantásticas imágenes caleidoscópicas surgían en mí, alternantes, variadas, se abrían y cerraban en círculos y espirales, y explotaban como fuentes de color, se reordenaban y mezclaban en un flujo constante”.Este peculiar suceso acontecido en 1943, fue considerado en su momento un avance para la ciencia psiquiátrica, sin embargo fue hasta 1985 cuando el profesor estadounidense Thomas B. Roberts en el condado de DeKalb (Illinois, Estados Unidos), inició con la peculiar celebración del “Día de la Bicicleta” en conmemoración al descubrimiento de Hofmann.
+                  <img src="imagenes/bicis.jpg" width="60%" height="65%"></h2>
+                 
+                 </div>
+                 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                 <div>
+                   <img src="imagenes/persona_rosa.png" width="46" height="46">
+                  </div>
+                      <h4>Aplicacion Dos,ASVS</h4>
+                   </div>
+                 </div>
+                 </div>            
+</body>
+</html>
